@@ -16,9 +16,11 @@ public class TestComplexNumber {
     System.out.println(c);
     System.out.println(c + ".getReal() = " + c.getReal());
     System.out.println(d + ".getImaginary() = " + d.getImag());
+    System.out.println(d + ".magnitude() =" + d.magnitude());
     System.out.println(c + " + " + d + " = " + c.add(d));
     System.out.println(c + " + " + d + " = " + c.subtract(d));
     System.out.println(c + " + " + d + " = " + ComplexNumber.add(c, d));
     System.out.println(c + " * " + d + " = " + c.multiply(d));
+    System.out.println(c + " == "+ d + " = " + c.equals(d));
   }
 }
